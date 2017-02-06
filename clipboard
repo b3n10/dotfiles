@@ -1,4 +1,5 @@
 #script to copy/paste text in URXVT
+#require xclip
 
 #! perl
 
