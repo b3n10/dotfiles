@@ -197,3 +197,9 @@ bindsym $sup+F8 exec amixer -q sset 'Master' toggle
 #network
 exec --no-startup-id urxvt -e sudo NetworkManager
 exec --no-startup-id nmcli con up Lleve
+
+#nitrogen
+exec --no-startup-id nitrogen --restore
+
+#xbindkeys, requires xvkbd
+exec --no-startup-id xbindkeys
