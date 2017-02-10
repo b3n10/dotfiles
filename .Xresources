@@ -33,6 +33,8 @@ URxvt.perl-ext-common: default,clipboard
 !
  URxvt.background: #1C1C1C
  URxvt.foreground: #DEDEDE
+ URxvt.transparent: true
+ URxvt.shading: 65
 !
 ! ! black
  URxvt.color0  : #2E3436

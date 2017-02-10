@@ -165,7 +165,7 @@ mode "$mode_system" {
 bindsym $mod+x mode "$mode_system"
 
 #autostart nitrogen
-#         exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore
 
 #autostart xrdb
 exec xrdb ~/.Xresources
@@ -187,9 +187,6 @@ bindsym $sup+F8 exec amixer -q sset 'Master' toggle
 #network
 exec --no-startup-id urxvt -e sudo NetworkManager
 exec --no-startup-id nmcli con up Lleve
-
-#nitrogen
-exec --no-startup-id nitrogen --restore
 
 #xbindkeys, requires xvkbd
 exec --no-startup-id xbindkeys
