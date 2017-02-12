@@ -192,8 +192,8 @@ exec --no-startup-id nmcli con up Lleve
 exec --no-startup-id xbindkeys
 
 # switch to workspace
-bindsym $mod+1 workspace 1: urxvt 
-bindsym $mod+2 workspace 2: www
+bindsym $mod+1 workspace 1:-urxvt 
+bindsym $mod+2 workspace 2:-www
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
@@ -203,3 +203,6 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
+# apps on specific ws
+bindsym $sup+c exec chromium
+assign [class="Chromium"] 2:-www
