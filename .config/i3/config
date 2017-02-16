@@ -194,7 +194,7 @@ exec --no-startup-id nmcli con up Lleve
 exec --no-startup-id xbindkeys
 
 # switch to workspace
-bindsym $mod+1 workspace 1:-urxvt 
+bindsym $mod+1 workspace 1:-urxvt
 bindsym $mod+2 workspace 2:-www
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
